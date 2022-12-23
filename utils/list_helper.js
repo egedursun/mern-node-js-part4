@@ -18,7 +18,25 @@ const totalLikes = (blogs) => {
     }
 }
 
+// EXERCISE (4.5)
+const favoriteBlog = (blogs) => {
+    //todo: find which blog has most likes, return that blog
+}
+
+// EXERCISE (4.6)
+const mostBlogs = (blogs) => {
+    //todo: find the author which has the most amount of blogs
+}
+
+// EXERCISE (4.7)
+const mostLikes = (blogs) => {
+    //todo: find the author, which has the most amount of likes for the blogs
+}
+
 module.exports = {
     dummy,
-    totalLikes
+    totalLikes,
+    favoriteBlog,
+    mostBlogs,
+    mostLikes,
 }
