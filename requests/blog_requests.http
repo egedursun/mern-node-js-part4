@@ -1,0 +1,17 @@
+# GET ALL BLOGS
+GET http://localhost:3001/api/blogs
+Accept: application/json
+
+###
+
+# POST A BLOG
+POST http://localhost:3001/api/blogs
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "A New Topic",
+  "author": "Ayhan Dursun",
+  "url": "/id999",
+  "likes": 5
+}
