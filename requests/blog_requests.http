@@ -1,13 +1,14 @@
 # GET ALL BLOGS
 GET http://localhost:3001/api/blogs
 Accept: application/json
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFBQSIsImlkIjoiNjNhYzQwZWQyYjgzYTI4NGNhZWNiODIwIiwiaWF0IjoxNjcyMjM2OTcxLCJleHAiOjE2NzIyNDA1NzF9.MXJ7sqj6lg329MOnjILYEmedbCnzhWOAgP_XfYjpubw
 ###
 
 # POST A BLOG
 POST http://localhost:3001/api/blogs
 Accept: application/json
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFBQSIsImlkIjoiNjNhYzQwZWQyYjgzYTI4NGNhZWNiODIwIiwiaWF0IjoxNjcyMjM2OTcxLCJleHAiOjE2NzIyNDA1NzF9.MXJ7sqj6lg329MOnjILYEmedbCnzhWOAgP_XfYjpubw
 
 {
   "title": "A New Topic",
@@ -15,3 +16,10 @@ Content-Type: application/json
   "url": "/id999",
   "likes": 5
 }
+
+###
+
+# DELETE A BLOG
+DELETE http://localhost:3001/api/blogs/63ac50345eaf4df714c337af
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFBQSIsImlkIjoiNjNhYzQwZWQyYjgzYTI4NGNhZWNiODIwIiwiaWF0IjoxNjcyMjM2OTcxLCJleHAiOjE2NzIyNDA1NzF9.MXJ7sqj6lg329MOnjILYEmedbCnzhWOAgP_XfYjpubw
